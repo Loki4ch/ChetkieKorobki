@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.our-products {
+    height: 400px;
+    margin-top: 30px;
+    background: lightgray;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    color: #86878B;
+}
+
+.title--section {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title--smaller {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.header {
+    background-color: burlywood;
+    /*position: fixed;*/
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-wrap {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-image {
+    max-width: 180px;
+    max-height: 100px;
+    margin-left: 115px;
+}
+
+.header__logo-text {
+    margin-left: 15px;
+}
+
+.header__button {
+    width: 300px;
+    height: 50px;
+    margin-right: 115px;
+}
+
+.advert__title--main {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.advert__paragraph {
+    text-align: center;
+}
+
+.advert__title--smaller {
+    margin-top: 30px;
+}
+
+.advert__list {
+    list-style: inside;
+}
+
+.our-advantages__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-advantages__item-wrap {
+    width: 300px;
+    text-align: center;
+}
+
+.our-advantages__image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.about__list {
+    list-style: inside;
+}
+
+.contacts__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts__info-wrap {
+    max-width: 300px;
+}
+
+.contacts__form-wrap {
+    width: 600px;
+    height: 300px;
+    background-color: lightgrey;
+}
+
+.our-storage__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-storage__adress-wrap {
+    max-width: 300px;
+}
+
+.our-storage__map-wrap {
+    width: 600px;
+    height: 300px;
+    background-color: lightgrey;
+}
+
+.footer {
+    margin-top: 50px;
+    background-color: burlywood;
+    min-height: 100px;
+    text-align: center;
+}
+
+.footer__paragraph {
+    padding-top: 45px;
+}
