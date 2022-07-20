@@ -131,6 +131,10 @@ body {
     background-color: lightgrey;
 }
 
+.contacts__form-wrap::before {
+    content: "FORM coming soon...";
+}
+
 .our-storage__wrap {
     display: flex;
     justify-content: space-between;
@@ -145,6 +149,10 @@ body {
     width: 600px;
     height: 300px;
     background-color: lightgrey;
+}
+
+.our-storage__map-wrap::before {
+    content: "MAP coming soon...";
 }
 
 .footer {
