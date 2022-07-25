@@ -165,3 +165,21 @@ body {
 .footer__paragraph {
     padding-top: 45px;
 }
+
+
+
+
+.products {
+    margin-left: 20px;
+    background-color: tomato;
+    width: 250px;
+}
+
+.product {
+    background-color: aqua;
+    margin-bottom: 3px;
+}
+
+.btn-edit {
+
+}

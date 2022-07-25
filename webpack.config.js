@@ -12,7 +12,7 @@ module.exports = {
     },
     devtool: "source-map",
     devServer: {
-        port: 3000,
+        port: 5000,
         hot: true,
         historyApiFallback: {index: "/"},
         open: true,
@@ -29,6 +29,10 @@ module.exports = {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: ['babel-loader'],
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader'],
             },
         ]
     }
