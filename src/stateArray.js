@@ -1,4 +1,4 @@
-const productsArrState = [
+export const productsArrState = [
     {
         id: 1,
         name: 'Product 1',
@@ -19,11 +19,10 @@ const productsArrState = [
     }
 ]
 
-// const ChangeId = () => {
-//       productsArrState.map(elem => {
-//           console.log(elem)
-//         elem.id = 99;
-//       })
-// }
-// export { ChangeId };
-export  default productsArrState;
+export const changeAmount = (arr) => {
+    console.log('button clicked');
+    for (const item of arr) {
+        item.amount++;
+    }
+    return arr;
+}

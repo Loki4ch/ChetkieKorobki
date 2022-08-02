@@ -1,5 +1,7 @@
 import React from 'react';
-import productsArrState from './stateArray'
+import {productsArrState} from './stateArray';
+import {changeAmount} from "./stateArray";
+
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -10,10 +12,15 @@ class App extends React.Component {
         }
     }
 
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        console.log(this.state.productDivs);
+        console.log(this.state.header);
+    }
+
     render() {
         return (
             <div className={'products'}>
-                <button className={'btn-edit'} onClick={(event) => {this.setState({header: this.state.header + 1})}}>{this.state.header}</button>
+                <button className={'btn-edit'} onClick={(event) => {this.setState({productDivs: changeAmount(productsArrState)})}}>{this.state.header}</button>
                 {this.state.productDivs.map((elem, index) => {
                     return (
                         <div className={'product'}>
