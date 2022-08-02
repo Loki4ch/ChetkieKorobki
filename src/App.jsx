@@ -29,7 +29,6 @@ class App extends React.Component {
                             <p>{'Price: '}{elem.price}</p>
                             <p>{'Amount: '}{elem.amount}</p>
                         </div>
-
                     )
                 })}
             </div>
