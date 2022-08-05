@@ -19,10 +19,10 @@ export const productsArrState = [
     }
 ]
 
-export const changeAmount = (arr) => {
+export const changeAmount = () => {
     console.log('button clicked');
-    for (const item of arr) {
+    for (const item of productsArrState) {
         item.amount++;
     }
-    return arr;
+    return productsArrState;
 }
