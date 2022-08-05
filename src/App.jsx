@@ -1,6 +1,7 @@
 import React from 'react';
 import {productsArrState} from './stateArray';
 import {changeAmount} from "./stateArray";
+import {Login} from "../Components/Login.jsx";
 
 class App extends React.Component {
     constructor(props) {
@@ -31,6 +32,7 @@ class App extends React.Component {
                         </div>
                     )
                 })}
+                <Login/>
             </div>
         )
     }
