@@ -17,8 +17,6 @@ class App extends React.Component {
         console.log(this.state.header);
     }
 
-
-
     render() {
         return (
             <div className={'products'}>
