@@ -17,10 +17,12 @@ class App extends React.Component {
         console.log(this.state.header);
     }
 
+
+
     render() {
         return (
             <div className={'products'}>
-                <button className={'btn-edit'} onClick={(event) => {this.setState({productDivs: changeAmount(productsArrState)})}}>{this.state.header}</button>
+                <button className={'btn-edit'} onClick={(event) => {this.setState({productDivs: changeAmount()})}}>{this.state.header}</button>
                 {this.state.productDivs.map((elem, index) => {
                     return (
                         <div className={'product'}>
