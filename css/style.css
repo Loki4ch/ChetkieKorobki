@@ -36,7 +36,6 @@ body {
 
 .header {
     background-color: darkslategray;
-    /*position: fixed;*/
     z-index: 1;
     display: flex;
     justify-content: space-between;
@@ -159,13 +158,15 @@ body {
 
 .footer {
     margin-top: 50px;
-    background-color: burlywood;
+    background-color: darkslategray;
     min-height: 100px;
     text-align: center;
+    box-shadow: 0 -5px 10px black;
 }
 
 .footer__paragraph {
     padding-top: 45px;
+    color: lightgrey;
 }
 
 
